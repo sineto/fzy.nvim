@@ -6,14 +6,7 @@ This plugin allows us to use *fzy* integrated with [Neovim][].
 **ATENTION: only tested with `NVIM v0.3.7` on [`Arch Linux`][]**
 
 ## Long subject
-*fzf* it's my first daily fuzzy finder until now. But *fzy* gives a second 
-best choice at all. In some cases I really prefer use *fzy* rather than *fzf* 
-because it returns the best and fast results on my screen. Thinking about 
-it I look for a great Vim plugin that provide not all features of [fzf.vim][] 
-but just the basics to use on Neovim. I found some ones but I don't really 
-like it in terms of configuration, simplicity and beauty. So I decided hack 
-the *fzf* Vim plugin from the official repository and make my own 
-*fzy* Vim plugin. And here is my results.
+[fzf][] it's my first daily fuzzy finder until now. But [fzy][] gives me a second best choice at all. In some cases I really prefer use *fzy* rather than *fzf* because it returns the best and fast results on my screen. Thinking about it I look for a great Vim plugin that provide not all features of [fzf.vim][] but just the basics to use on Neovim. I found some ones but I don't really like it in terms of configuration, simplicity and beauty. So I decided hack the *fzf* Vim plugin from the official repository and make my own *fzy* Vim plugin. And here is my results.
 
 ## Dependencies
 - [Neovim][] >= v0.3.7
@@ -43,8 +36,7 @@ It's really looks like `:FZF` command. So, you can do something like:
 :Fzy --show-score --query .zsh ~/Git
 ```
 
-You can open a selected file in a new tab, in horizontal split or in vertical split
-using the predefined shortcuts `CTRL-T`, `CTRL-X` and `CTRL-V` respectivaly.
+You can open a selected file in a new tab, in horizontal split or in vertical split using the predefined shortcuts `CTRL-T`, `CTRL-X` and `CTRL-V` respectivaly.
 
 ## Configuration
 ### `g:fzy_default_command` 

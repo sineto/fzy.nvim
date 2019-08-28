@@ -3,10 +3,17 @@
 the terminal. It's a great tool to use with [rg][] and [ag][]. 
 This plugin allows us to use *fzy* integrated with [Neovim][].
 
-**ATENTION: only tested with `NVIM v0.3.7` on [`Arch Linux`][]**
+> **ATENTION: only tested with `NVIM v0.3.7` on `Arch Linux`**
 
 ## Long subject
-[fzf][] it's my first daily fuzzy finder until now. But [fzy][] gives me a second best choice at all. In some cases I really prefer use *fzy* rather than *fzf* because it returns the best and fast results on my screen. Thinking about it I look for a great Vim plugin that provide not all features of [fzf.vim][] but just the basics to use on Neovim. I found some ones but I don't really like it in terms of configuration, simplicity and beauty. So I decided hack the *fzf* Vim plugin from the official repository and make my own *fzy* Vim plugin. And here is my results.
+[fzf][] it's my first daily fuzzy finder until now. But [fzy][] gives me a 
+second best choice at all. In some cases I really prefer use *fzy* rather than 
+*fzf* because it returns the best and fast results on my screen. Thinking about
+it I look for a great Vim plugin that provide not all features of [fzf.vim][]
+but just the basics to use on Neovim. I found some ones but I don't really like
+it in terms of configuration, simplicity and beauty. So I decided hack the *fzf* 
+Vim plugin from the official repository and make my own *fzy* Vim plugin. And
+here is my results.
 
 ## Dependencies
 - [Neovim][] >= v0.3.7
@@ -119,6 +126,7 @@ Do you like this plugin? Come on:
 [rg]: https://github.com/BurntSushi/ripgrep
 [ag]: http://geoff.greer.fm/ag/
 [Neovim]: https://neovim.io
-[`ArchLinux`]: https://archlinux.org
 [fzf.vim]: https://github.com/junegunn/fzf.vim
 [dein.vim]: https://github.com/Shougo/dein.vim
+[John Hawthorn]: https://github.com/jhawthorn
+[Junegunn Choi]: https://github.com/junegunn
